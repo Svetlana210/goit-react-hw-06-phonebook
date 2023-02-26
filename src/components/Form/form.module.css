@@ -1,0 +1,30 @@
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: 1px solid black;
+  background-color: white;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.span {
+  margin-bottom: 5px;
+}
+.btn {
+  width: 100px;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(190, 193, 193);
+}
