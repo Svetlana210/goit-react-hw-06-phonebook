@@ -1,6 +1,7 @@
 import styles from './form.module.css';
 import { useState } from 'react';
 
+
 const Form = ({ onSubmit, doubleContact }) => {
   const [state, setState] = useState({ name: '', number: '' });
 
